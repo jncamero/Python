@@ -46,13 +46,17 @@ hold[1]
 'AC[A/C]TTCGTCG'
 
 ref.fetch("seq1",5,14+1)
+
 'ACCTTCGTCG'
 
 hold[3]
+
 '>seq1:16-25'
 
 hold[4]
+
 'CTCCACT[A/C]TT'
 
 ref.fetch("seq1",16,25+1)
+
 'CTCCACTCTT'
