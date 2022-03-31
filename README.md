@@ -1,5 +1,5 @@
 
-#**Python functions for manipulating sequence data**
+# **Python functions for manipulating sequence data**
 
 **flank_seq**
 
