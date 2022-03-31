@@ -41,9 +41,11 @@ for line in open('Markers.fasta'):  # opened in text-mode; all EOLs are converte
 ref=FastaFile(fasta)
 
 #Position of first SNP
+
 hold[0]
 '>seq1:5-14'
 #Lef-flanking sequence of first SNP
+
 hold[1]
 'AC[A/C]TTCGTCG'
 
