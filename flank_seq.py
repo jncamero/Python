@@ -41,39 +41,3 @@ def flank_seq(freg,snpfile,varfile,Ref):
             outfile.writelines(lines)
     outfile.close()
     return(0)
-##########################################################################################################
-########################################Example###########################################################
-#Variant bed file
-varfile="var.bed.csv"
-#Reference file
-fasta="Ref.fasta"
-#SNP file
-snpfile="SNP.bed.csv"
-#Length of sequence to return on either side of SNPs from SNP file
-freg=10
-
-flank_seq(freg,snpfile,varfile,fasta)
-
-hold=[]
-for line in open('Markers.fasta'):  # opened in text-mode; all EOLs are converted to '\n'
-    hold.append(line.rstrip('\n')) 
-
-#Check to see that annotated and fetched sequences from reference file are identical (except for indicated variants)
-ref=FastaFile(fasta)
-
-hold[0]
-'>seq1:5-14'
-
-hold[1]
-'AC[A/C]TTCGTCG'
-
-ref.fetch("seq1",5,14+1)
-'ACCTTCGTCG'
-
-hold[3]
-'>seq1:16-25'
-
-hold[4]
-'CTCCACT[A/C]TT'
-
-ref.fetch("seq1",16,25+1)
