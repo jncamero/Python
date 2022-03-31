@@ -1,7 +1,7 @@
 
 # **Python functions for manipulating sequence data**
 
-**flank_seq**
+## **flank_seq**
 
 This function takes 4 inputs
 1) The length of sequence to return upstream and downstream from each SNP
