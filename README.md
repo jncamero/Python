@@ -21,12 +21,19 @@ Example:
 ############################################################
 
 #Variant bed file
+
 varfile="var.bed.csv"
+
 #Reference file
+
 fasta="Ref.fasta"
+
 #SNP file
+
 snpfile="SNP.bed.csv"
+
 #Length of sequence to return on either side of SNPs from SNP file
+
 freg=10
 
 #Run Function (make sure you have write privileges in the directory you're in).
