@@ -43,7 +43,7 @@ flank_seq(freg,snpfile,varfile,fasta)
 
 hold=[];
 
-for line in open('Markers.fasta'):  
+    for line in open('Markers.fasta'):  
     
     hold.append(line.rstrip('\n')) 
 
