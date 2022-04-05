@@ -41,7 +41,7 @@ flank_seq(freg,snpfile,varfile,fasta)
 
 #Read in the output from flank_seq
 
-hold=[];
+ hold=[];
 
     for line in open('Markers.fasta'):  
     
