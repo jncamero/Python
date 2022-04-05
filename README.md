@@ -37,8 +37,6 @@ flank_seq(freg,snpfile,varfile,fasta)
 hold=[];
 
 for line in open('Markers.fasta'):  
-
-#opened in text-mode; all EOLs are converted to '\n'
     
     hold.append(line.rstrip('\n')) 
 
