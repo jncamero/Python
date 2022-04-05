@@ -34,15 +34,15 @@ flank_seq(freg,snpfile,varfile,fasta)
 
 #Read in the output from flank_seq
 
-hold=[]
+hold=[];
 
 for line in open('Markers.fasta'):  
 
-# opened in text-mode; all EOLs are converted to '\n'
+#opened in text-mode; all EOLs are converted to '\n'
     
     hold.append(line.rstrip('\n')) 
 
-Check to see that annotated and fetched sequences from reference file are identical (except for indicated variants)
+#Check to see that annotated and fetched sequences from reference file are identical (except for indicated variants)
 
 ref=FastaFile(fasta)
 
