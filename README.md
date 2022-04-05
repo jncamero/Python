@@ -37,15 +37,14 @@ snpfile="SNP.bed.csv"
 freg=10
 
 #Run Function (make sure you have write privileges in the directory you're in).
+
 flank_seq(freg,snpfile,varfile,fasta)
 
 #Read in the output from flank_seq
 
- hold=[];
-
-    for line in open('Markers.fasta'):  
-    
-    hold.append(line.rstrip('\n')) 
+hold=[];
+for line in open('Markers.fasta'):  
+ hold.append(line.rstrip('\n')) 
 
 #Check to see that annotated and fetched sequences from reference file are identical (except for indicated variants)
 
