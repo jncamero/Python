@@ -40,11 +40,11 @@ for line in open('Markers.fasta'):  # opened in text-mode; all EOLs are converte
 
     hold.append(line.rstrip('\n')) 
 
-#Check to see that annotated and fetched sequences from reference file are identical (except for indicated variants)
+Check to see that annotated and fetched sequences from reference file are identical (except for indicated variants)
 
 ref=FastaFile(fasta)
 
-#Position of first SNP
+Position of first SNP
 
 hold[0]
 
