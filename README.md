@@ -3,7 +3,7 @@
 
 ## **flank_seq**
 
-This function pulls sequences upstream and downstream from a SNP position indicated in a bed file, and returns the sequences with known variant positions annotated. It takes 4 inputs:
+This function pulls sequences upstream and downstream from a SNP positions indicated in a bed file, and returns the sequences with known variant positions annotated in a fastq file. It takes 4 inputs:
 1) The length of sequence to return upstream and downstream from each SNP
  
 2) A csv bed file indicating **known variant positions**, and the allelic variants at that locus
